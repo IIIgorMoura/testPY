@@ -110,6 +110,29 @@ print('Quantidade de alunos avaliados: ', len(notasWhile))
 
 
 
+# ---------------------
+# Objetos "Dicionários"
+    # armazenam chave e valor
+
+variavel = {
+    'chave': 'valor',
+    'chaveNum': 1,
+    'chaveFloat': 1.2,
+}
+
+# retornar o valor de chave especifica do objeto
+print( variavel['chave'] )
+
+# é possível ter array de objetos
+listaObjetos = [
+    { 'nome': 'Edu', 'idade': 25, 'peso': 60.2 },
+    { 'nome': 'Paulo', 'idade': 38, 'peso': 70.1},
+]
+
+print(listaObjetos[1]['nome'])
+
+
+
 # --------------------------
 # uso de bibliotecas basicas
 import numpy as np
